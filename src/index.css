@@ -1,0 +1,104 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+  padding: 0 30px;
+  background: #2d2d2a;
+}
+
+.nav > * {
+  
+  padding-right: 20px;
+}
+
+.nav .nav-logo {
+  /* color: #99CC00; */
+  font-weight: bold;
+  font-size: 1.5em;
+}
+html {
+  background-color: #f4f4f4;
+}
+.nav a {
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f4f4f4;
+  font-weight: bold;
+}
+/* 
+.main {
+  padding: 0 300px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+Main {
+  margin: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  font-size: 150%;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 0 10%; 
+}
+h1 {
+  text-shadow: 2px 2px 2px lightgray; 
+  font-size: 6vw; 
+  margin: 0;
+  font-family: 'Georgia';
+  display: block;
+  text-transform: uppercase; 
+  letter-spacing: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid lightgray;
+}
+img {
+  width:100%;
+  display: block;
+  box-shadow: 2px 3px 2px lightgray;
+}
+#bigLetter {
+  color:red;
+  font-size: 5vw;
+  font-weight: bold;
+}
+.image {
+  width: 100%;
+  padding: 20px 0;
+}
+h2 {
+  color: darkgray;
+  letter-spacing: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#lorem {
+  font-size: 3vw;
+  margin: auto 25px;
+
+}
+a:link{
+  text-decoration: none!important;
+  color: black;
+}
+h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  margin:10px;
+  font-size: 4vw;
+}
+#small {
+  font-size: 3vw;
+}
+#bigNum {
+  font-size: 7vw;
+  font-weight: 600;
+}
